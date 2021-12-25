@@ -23,7 +23,7 @@ B버튼을 누르면 차량에서 경적이 울린다.
 ### 1. Task(nxtcar)
 nxtcar Task alarm 기능을 통해 5ms마다 실행되게 된다. 해당 Task는 지속적으로 실행되며 배열의 값을 확인하고 if문을 통해 배열에 값이 들어온 것을 확인하면 해당 기능을 직접 처리하거나 SetEvent()를 통해 다른 Task로 해당 event를 넘겨주는 기능을 한다.
 ### 2. 전진 및 후진
-3번 배열에 1 또는 2가 들어갈 경우에 nxtcat Task에서 해당 배열의 값이 1일 경우 forward, 2일 경우 backword event를 setEvent()를 통해 MotorTask로 넘겨준다.           
+3번 배열에 1 또는 2가 들어갈 경우에 nxtcar Task에서 해당 배열의 값이 1일 경우 forward, 2일 경우 backword event를 setEvent()를 통해 MotorTask로 넘겨준다.           
 MototTask Task는 해당하는 이벤트들이 들어올 경우, nxt_motor_set_speed를 통해 알맞은 방향으로 모터를 동작시킨다.        
 brake가 기능하고 있을 때 모터가 움직이는 것을 방지하기 위해 리소스 res1을 사용하도록 하여 브레이크가 res1을 가지고 있을 때에는 동작하지 않는다.       
 ### 3. 좌회전 및 우회전
@@ -61,3 +61,6 @@ A버튼에서 손을 떼면 release event가 발생하게 되고, res1 리소스
                       
 4번과 7번배열은 버튼 누르고 있을 시 해당하는 값을 전송하고
 버튼에 손을 때면 0으로 자동 초기화 됩니다.
+# 사용 방법
+1. 컴파일한 실행 파일(rxe 파일)을 Nxt Lego Mindstorm에 임포트한 후 Nxt Lego Mindstorm에서 펌웨어를 실행한다.            
+2. 휴대폰 app을 실행시킨 후 휴대폰을 이용해 자동차의 동작을 컨트롤한다.          
