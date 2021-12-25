@@ -41,7 +41,7 @@ StopTask에서 해당 이벤트를 받을 경우 GetResource를 이용해 res1 �
 A버튼에서 손을 떼면 release event가 발생하게 되고, res1 리소스를 놓아주어 MotorTask Task에서 모터가 동작할 수 있게 된다.
 ### 7. 정적
 7번 배열에 2의 값이 들어올 경우 ecrobot_sound_tone() API를 이용, 특정 음이 1초간 출력되도록 하였다.
-# 휴대폰 Application
+# 휴대폰 Application(Android Only)
 링크 : https://drive.google.com/file/d/1KLePUlIggyI366MFMeKe1apX_o-uGGMi/view?usp=sharing                  
 블루투스 버퍼에서 사용하는 배열 요소는 3,4,5,6,7 입니다.    
                 
