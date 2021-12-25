@@ -63,4 +63,7 @@ A버튼에서 손을 떼면 release event가 발생하게 되고, res1 리소스
 버튼에 손을 때면 0으로 자동 초기화 됩니다.
 # 사용 방법
 1. 컴파일한 실행 파일(rxe 파일)을 Nxt Lego Mindstorm에 임포트한 후 Nxt Lego Mindstorm에서 펌웨어를 실행한다.            
-2. 휴대폰 app을 실행시킨 후 휴대폰을 이용해 자동차의 동작을 컨트롤한다.          
+2. 휴대폰 app을 실행시킨 후 휴대폰을 이용해 자동차의 동작을 컨트롤한다.    
+# 자동차 모습
+Nxt Lego Mindstorm과 레고를 이용해 제작한 자동차 모형을 링크를 이용해 첨부합니다.              
+자동차 이미지 링크 : https://drive.google.com/file/d/19ElpvvJCCBZH7ghfeE1yhKE7aLIH9HAy/view?usp=sharing
