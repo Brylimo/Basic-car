@@ -1,4 +1,4 @@
-# Basic-car-using-nxtOSEK
+# Basic-car
 Nxt Lego Mindstorm을 이용해 차체를 제작하고 이 차체를 소프트웨어적으로 동작시키는 펌웨어를 제작하였다.
 이 프로그램을 실제 차량에 접목시키기 위해 실제 차와 유사하게 섀시 및 바디를 레고 블록과 Nxt Lego Mindstorm을 이용하여 제작하였으며, Nxt Lego Mindstorm에 올라갈 펌웨어로는 
 real-time 운영체제인 nxtOSEK과 사용자 어플리케이션을 실행파일로 묶어 사용한다. 펌웨어는 운전자가 직접 차량을 운전하는 상황을 가정해 휴대폰 앱에서 
